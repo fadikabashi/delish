@@ -1,8 +1,60 @@
-/*import jost font from google*/
+/*import  fonts from google  [font name Jost - Archivo]*/
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+/*css reseter*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End of css 
 /* Variables*/
-root{
+:root{
     --primary-color: #CB3A1A;
     --secondary-color: #111111;
     --paragraph-color:#74787c;
@@ -10,13 +62,59 @@ root{
 }
 
 /*End Variables*/
+/*Globals*/
+
+ h1{
+    font-family: Jost , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 66px;
+    line-height: 76px;
+ }
+ h2{
+    font-family: Jost , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+ }
+ h3{
+    font-family: Jost , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+ }
+ h4{
+    font-family: Jost , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+ }
+ h5{
+    font-family: Jost , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+ }
+ h6{
+    font-family: Jost , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+ }
+ p{
+    font-size: 16px;
+    line-height: 26px;
+ }
 
 body{
-    font-family: Jost , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Archivo , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*End globals*/
+header{
+background: var(--secondary-color);
+color: var(--white);
+}
 
 /*header styling*/
-header{
-background-color: var(--primary-color);
+.top-header{
+display: flex;
+width: 90%;
+margin: 0 auto;
+justify-content: space-between;
+padding: 10px 0;
+border-bottom: 1px solid var(--paragraph-color);
 }

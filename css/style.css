@@ -1,0 +1,22 @@
+/*import jost font from google*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variables*/
+root{
+    --primary-color: #CB3A1A;
+    --secondary-color: #111111;
+    --paragraph-color:#74787c;
+    --white:#ffffff;
+}
+
+/*End Variables*/
+
+body{
+    font-family: Jost , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*header styling*/
+header{
+background-color: var(--primary-color);
+}

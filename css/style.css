@@ -104,6 +104,39 @@ body{
 }
 
 /*End globals*/
+
+
+
+/*Buttons*/
+
+.button4{
+   color: var(--white);
+   background: none;
+   border:1px solid var(--primary-color);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 40px;
+   margin-top: 0.3rem;
+   padding: 0 0.7rem;
+}
+
+.button4 a{
+   
+   color: var(--white);
+   text-decoration: none;
+   text-transform: uppercase;
+   
+}
+
+.button4 a:hover {
+
+   color: var(--primary-color);
+   text-decoration: none;
+   
+}
+
+/*End of Buttons*/
 header{
 background: var(--secondary-color);
 color: var(--white);
@@ -118,3 +151,58 @@ justify-content: space-between;
 padding: 10px 0;
 border-bottom: 1px solid var(--paragraph-color);
 }
+
+.second-header{
+   display: flex;
+   width: 90%;
+   margin: 0 auto;
+   justify-content: center;
+   
+}
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex:1;
+}
+.second-header img{
+   width: 32px;
+   height: 32px;
+   padding: 10px;
+}
+.second-header p{
+   font-family: Jost, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-transform: uppercase;
+   flex:2;
+}
+
+nav{
+   flex:3;
+}
+
+nav ul{
+ padding-top: 18px;
+}
+nav ul li{
+   display: inline;
+   padding: 10px;
+   
+}
+nav ul li a{
+   text-decoration: none;
+   color: var(--white);
+   padding: 0 5px;
+}
+
+/*ُEnd of header*/
+
+
+/*slider*/
+#slider img{
+   height: 60vh;
+   width: 100vw;;
+}
+
+/*end of slider*/
+
+

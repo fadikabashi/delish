@@ -101,6 +101,7 @@ table {
    text-transform: uppercase;
  }
  p{
+   color: var(--paragraph-color);
     font-size: 16px;
     line-height: 26px;
  }
@@ -109,11 +110,29 @@ body{
     font-family: Archivo , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a{
+   text-decoration: none;
+}
+
+
 /*End globals*/
 
 
 
 /*Buttons*/
+
+.button1{
+   background-color: var(--primary-color);
+   display: inline;
+   padding: 10px;
+   border-radius: 3px;
+   margin: 10px;
+}
+
+.button1 a{
+   color: var(--white);
+   text-transform: uppercase;
+}
 
 .button4{
    color: var(--white);
@@ -222,6 +241,26 @@ nav ul li a{
    height: auto;
 }
 
-.phone .image .img{
+#phone-image{
    height: 64px;
+}
+
+.welcome-container{
+   width: 80%;
+   margin: 120px auto;
+   gap: 0 24px;
+
+}
+.left-welcome{
+   width:500px;
+}
+
+.left-welcome h3{
+   padding: 10px 0px;
+}
+
+.phone{
+   margin: 1rem 0;
+   display: flex;
+   gap:5px;
 }

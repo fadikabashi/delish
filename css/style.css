@@ -127,12 +127,39 @@ a{
    padding: 10px;
    border-radius: 3px;
    margin: 10px;
+   width: fit-content;
+   margin: 0 auto;
+   color: var(--white);
+   text-transform: uppercase;
 }
 
 .button1 a{
    color: var(--white);
    text-transform: uppercase;
 }
+
+.button2{
+   background: none;
+   border:2px solid var(--primary-color);
+   padding: 10px;
+   width: fit-content;
+   color: var(--primary-color);
+}
+
+.button2 a{
+   
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.button2 a:hover{
+
+   color: var(--white);
+   background-color: var(--primary-color);
+   text-decoration: none;
+}
+
+
 
 .button4{
    color: var(--white);
@@ -160,6 +187,8 @@ a{
    text-decoration: none;
    
 }
+
+
 
 /*End of Buttons*/
 header{
@@ -266,24 +295,28 @@ nav ul li a{
 }
 
 .our-services{
+   background:#fff2cc;
    width: 80%;
+  margin: 0 auto;
+  padding: 120px;
+}
+.wrapper-services{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
 }
 
-.our-services .button1{
-   width: fit-content;
-}
 
-.our-services h3{
+
+.our-services .wrapper-services h3{
+   margin: 0 auto;
    font-weight: 700;
 }
 
 .our-services .vertical-line{
    border-right: 1px solid var(--primary-color);
    height: 31px;
+   margin: 0 auto;
    margin-top: 1rem;
 }
 
@@ -295,10 +328,26 @@ nav ul li a{
 .our-services .boxes{
    display: flex;
    justify-content: center;
+   align-items: center;
 
+}
+
+.our-services .boxes .box{
+   display: flex;
+   flex-direction: column;
+   
 }
 
 .our-services .boxes .box img{
    width: 370px;
    height: auto;
+}
+
+.food-menu{
+   padding: 120px;
+}
+.food-menu .menu{
+   margin-top: 10px;
+   display: flex;
+   justify-content:space-between;
 }

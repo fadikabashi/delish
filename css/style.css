@@ -112,6 +112,7 @@ body{
 
 a{
    text-decoration: none;
+   text-transform: uppercase;
 }
 
 
@@ -271,7 +272,7 @@ nav ul li a{
 }
 
 #phone-image{
-   height: 64px;
+   height: 48px;
 }
 
 .welcome-container{
@@ -335,7 +336,7 @@ nav ul li a{
 .our-services .boxes .box{
    display: flex;
    flex-direction: column;
-   
+   gap: 15px;
 }
 
 .our-services .boxes .box img{
@@ -343,11 +344,68 @@ nav ul li a{
    height: auto;
 }
 
+
 .food-menu{
    padding: 120px;
+   width: 80%;
+   margin: 0 auto;;
 }
 .food-menu .menu{
-   margin-top: 10px;
+   margin-top: 15px;
    display: flex;
    justify-content:space-between;
+  
+
 }
+.menu-link a{
+   margin-left: 10px;
+   text-decoration: none;
+}
+
+.menu h3{
+   font-weight: 700;
+}
+
+.frame {
+   display: flex;
+   gap: 50px;
+}
+
+.frame .left-box img{
+width: 411px;
+height: 260px;
+}
+.left-box {
+   display: flex;
+   flex-direction: column;
+
+   
+}
+.inner-text{
+   display: flex;
+   background-color: #c0c0c0;
+   border-bottom: 1px solid var(--paragraph-color);
+}
+
+#time {
+   color: var(--primary-color);
+   font-weight: 800;
+}
+.inner-content h5{
+   font-weight: 500;
+}
+
+.right-box{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.right-box .menu-box img {
+   width: 220px;
+   height: 250px;
+}
+
+#red-paragraph{
+   color: var(--primary-color);
+   font-size:xx-large;
+}
+

@@ -409,3 +409,38 @@ height: 260px;
    font-size:xx-large;
 }
 
+
+
+.numbers{
+   padding: 120px;
+   background-color: #111111;
+}
+
+.numbers-top{
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   color: var(--white);
+}
+
+.number-detail{
+   display: flex;
+   justify-items: center;
+   margin-bottom: 64px;
+  
+}
+
+.number-detail h4{
+   padding-right: 10px;
+}
+
+
+.numbers hr{
+   margin-bottom: 120px;
+}
+
+.numbers h3{
+   color: var(--white);
+   margin-top: 25px;
+   font-weight: 600;
+}
